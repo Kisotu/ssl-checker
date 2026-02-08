@@ -1,8 +1,0 @@
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/SSLCheckerApp.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/command/BulkCommand.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/command/CheckCommand.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/exception/SSLCheckException.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/model/CertificateInfo.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/model/CheckResult.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/service/OutputFormatter.java
-/home/jake/Desktop/Java/ssl-checker/src/main/java/com/jake/sslchecker/service/SSLAnalyzer.java
