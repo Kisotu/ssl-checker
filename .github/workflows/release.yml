@@ -1,0 +1,25 @@
+name: SSL Checker Native Build
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: "21"
+          distribution: "graalvm"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          native-image-job-reports: "true"
+      - name: Build with Maven
+        run: mvn -Pnative native:compile
+      - name: Upload binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: ssl-checker
+          path: target/ssl-checker
