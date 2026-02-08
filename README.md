@@ -27,7 +27,7 @@ A modern, fast, and feature-rich Java CLI tool designed to help developers and D
 ### Installation & Build
 ```bash
 # Clone the repository
-git clone https://github.com/jake/ssl-checker.git
+git clone https://github.com/kisotu/ssl-checker.git
 cd ssl-checker
 
 # Build the project
